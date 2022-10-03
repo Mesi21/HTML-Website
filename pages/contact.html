@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobbies</title>
+  </head>
+  <body>
+    <header>
+      <h1>Mesi's Hobby</h1>
+      <ul>
+        <li><a href="./jiujutsu.html">Jiujutsu</a></li>
+        <li><a href="./aikido.html">Aikido</a></li>
+        <li><a href="./karatedo.html">Karatedo</a></li>
+        <li><a href="./kendo.html">Kendo</a></li>
+        <li><a href="./iaido.html">Iaido</a></li>
+        <li><a href="./judo.html">Judo</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </header>
+    <div class="main-section">
+      <div id="ldiv">
+        <h1>Short survey</h1>
+        <form id="info">
+          <p>Which martial arts seemed the most interesting to you?</p>
+          <input type="radio" id="jj" name="favourite" value="Jiujutsu">
+          <label for="jj">Jiujutsu</label>
+          <br>
+          <input type="radio" id="aiki" name="favourite" value="Aikido">
+          <label for="aiki">Aikido</label>
+          <br>
+          <input type="radio" id="iaido" name="favourite" value="Iaido">
+          <label for="iaido">Iaido</label>
+          <br>
+          <input type="radio" id="judo" name="favourite" value="Judo">
+          <label for="judo">Judo</label>
+          <br>      
+          <input type="radio" id="karatedo" name="favourite" value="Karatedo">
+          <label for="karatedo">Karatedo</label>
+          <br>
+          <input type="radio" id="kendo" name="favourite" value="Kendo">
+          <label for="kendo">Kendo</label> 
+          <br>
+          <p>Would you be interested in trying one out?</p>
+          <input type="radio" id="yes" name="favourite" value="Yes">
+          <label for="yes">Yes</label>
+          <br>
+          <input type="radio" id="no" name="favourite" value="No">
+          <label for="no">No</label>
+          <br>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+      <div id="rdiv">
+        <h1>Contact me</h1>
+        <form id="contact">
+          <div class="contact-form">
+              <label for="your-name" class="contact-label">Your name</label>
+              <div class="input-fields">
+                  <input type="text" id="your-name" name="Name" class="form-inputs" placeholder="name" required>
+              </div>
+          </div>
+          <div class="contact-form">
+              <label for="email" class="fcf-label">Your email address</label>
+              <div class="input-fields">
+                  <input type="email" id="email" name="Email" class="form-inputs" placeholder="email" required>
+              </div>
+          </div>
+          <div class="contact-form">
+              <label for="msg" class="fcf-label">Your message</label>
+              <div class="input-fields">
+                  <textarea placeholder="Please write your message here..." id="msg" name="Message" class="form-inputs" rows="10" required></textarea>
+              </div>
+          </div>
+          <div class="contact-form">
+              <button type="submit" id="submit-btn">Submit</button>
+          </div>  
+        </form>
+      </div>
+      <br>
+      <div>
+        <a href="./about.html"><button type="button">Back to the about page</button></a>
+      </div>
+    </div>
+    <footer>
+      <p>&copy; Mesi 2022</p>
+    </footer>
+  </body>
+</html>
